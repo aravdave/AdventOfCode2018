@@ -8,7 +8,7 @@
   The BufferedReader program can be used by my program to read a text file line by line.
   The java.nio.file.* package can be used to allow the program to access a specific file on my computer.
 
-  The java.util.HashMap program allows my program to create objects of HashMap, a type of data structure.
+  The java.util.HashMap program allows my program to create HashMap, a type of data structure, objects.
   An object is a unique instance of a data structure. Let's say we have two objects: yourCar and myCar. Both of these objects are a type of car (the data strucure).
   HashMaps are unordered lists of key-value pairs. Since it's unordered, if you try to access the pairs in the HashMap, they may be in a different order than the order in which you added the pairs to the HashMap.
   For example, if you added <"Hi", 123>, <"Hello", 456>, and <"Wow", 789> in that order, the HashMap may store the objects in this order: <"Wow", 789>, <"Hi", 123>, and <"Hello", 456>.
@@ -95,3 +95,5 @@ public class Part1 {
         new Part1();
     }
 }
+
+//The output of this program is 5456, which is the correct answer to my unique puzzle input.
