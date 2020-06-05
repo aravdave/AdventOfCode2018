@@ -1,4 +1,5 @@
 // Arav Dave
+// Please read the puzzle description first
 // Anything typed after "//" in a line or between "/*" and "*/" within multiple lines is ignored by the program. Look for the double forward slash and the single forward slash with an asterisk to find my comments.
 
 /*At this point, I'm allowing these Java programs (i.e. java.io.BufferedReader) to be accessed by my program so I can use the functions within them.
@@ -45,7 +46,7 @@ public class Part1 {
             String line;
 
             // "line = br.readLine()" is assigning the first ID in the puzzle input to the string object "line".
-            // The code within the while loop will continue to run until there's no more IDs in the puzzle input (when the next line in the puzzle input equals null).
+            // The code within the while loop will continue to run until there are no more IDs in the puzzle input (when the next line in the puzzle input equals null).
             // Every the conditional statement of the while loop is read by the computer, the next ID is stored as a string under the "line" object.
             while((line = br.readLine()) != null) {
 
@@ -79,7 +80,7 @@ public class Part1 {
             e.printStackTrace();
         }
 
-        //This statement prints out the product of the number of IDs that contained a letter twice times the numer of IDs that contained a letter three times.
+        //This statement prints out the product of the number of IDs that contained a letter twice times the number of IDs that contained a letter three times.
         //In other words, it prints out the checksum for my list of box IDs.
         System.out.println(lettersThatAppearTwice * lettersThatAppearThreeTimes);
     }
@@ -90,7 +91,7 @@ public class Part1 {
     public static void main(String[] args) throws Exception {
 
         //This statement creates a "Part1" object (so an object of this class).
-        //When an object is created and instantiated (assigned a spot in the memory as indicated with the "new" keyword), the constructor of the object's class is automatically ran.
+        //When an object is created and instantiated (assigned a spot in the memory as indicated with the "new" keyword), the constructor of the object's class is automatically run.
         //In this case, the "public Part1()" constructor is run, which is basically all of the code in this program.
         new Part1();
     }

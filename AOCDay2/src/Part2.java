@@ -73,7 +73,7 @@ public class Part2 {
                             commonLetters = commonLetters + Character.toString(firstID.charAt(k));
                     }
 
-                    // After all the letters from both IDs are compared, if there was only one letter difference between the two IDs, then the program has found the two correct box IDs.
+                    // After all the letters from both IDs are compared, if there is only one letter difference between the two IDs, then the program has found the two correct box IDs.
                     // If that is the case, the program prints out (displays to the user) the common letters that were recorded between the two IDs and it terminates itself.
                     // The program terminates itself to avoid wasting resources and time looking for another pair of IDs that only have one letter difference since there's one correct pair.
                     if (numOfLettersChanged == 1) {
@@ -96,7 +96,7 @@ public class Part2 {
     public static void main(String[] args) throws Exception {
 
         //This statement creates a "Part1" object (so an object of this class).
-        //When an object is created and instantiated (assigned a spot in the memory as indicated with the "new" keyword), the constructor of the object's class is automatically ran.
+        //When an object is created and instantiated (assigned a spot in the memory as indicated with the "new" keyword), the constructor of the object's class is automatically run.
         //In this case, the "public Part1()" constructor is run, which is basically all of the code in this program.
         new Part2();
     }
